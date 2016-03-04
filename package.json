@@ -1,0 +1,32 @@
+{
+  "name": "tic-tac-two",
+  "version": "1.0.0",
+  "description": "A multiplayer Tic Tac Toe game using Node.js",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "method-override": "^2.3.5",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.0",
+    "nodemon": "^1.9.1"
+  },
+  "scripts": {
+    "serve": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobpaine/tic-tac-two.git"
+  },
+  "author": "Jacob Paine <painejacob@gmail.com> (https://www.jacobpaine.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jacobpaine/tic-tac-two/issues"
+  },
+  "homepage": "https://github.com/jacobpaine/tic-tac-two#readme"
+}
